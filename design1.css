@@ -1,0 +1,103 @@
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    
+}
+.col{
+    background-color: hsl(0, 100%, 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.colm {
+    background-color: var(--Dark-cyan);
+    height: 480px;
+    width: 270px;
+    padding: 40px;
+    position: relative;
+}
+.colm h1{
+    color: white;
+    font-size: 35px;
+    margin-top: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+}
+.colm p{
+    color: hsla(0, 0%, 100%, 0.60);
+    margin-top: 20px;
+    margin-bottom: 160px;
+    
+    
+}
+.col .imagen {
+    margin-bottom: 20px;
+}
+.uno{
+    border-radius: 12px 0 0 12px;
+    background-color: var(--Bright-orange);
+}
+.dos{
+    background-color: var(--Dark-cyan);
+}
+.tres{
+    border-radius: 0 12px 12px 0;
+    background-color: var(--Very-dark-cyan);
+}
+.uno1{
+    position: absolute;
+    height: 45px;
+    width: 130px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10px 14px;
+    bottom: 0;
+    color: var(--Bright-orange);
+    cursor: pointer;
+}
+.dos2{
+    position: absolute;
+    height: 45px;
+    width: 130px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10px 14px;
+    bottom: 0;
+    color: var(--Dark-cyan);
+    cursor: pointer;
+}
+.tres3{
+    position: absolute;
+    height: 45px;
+    width: 130px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10px 14px;
+    bottom: 0;
+    color: var(--Very-dark-cyan);
+    cursor: pointer;
+}
+button:hover{
+    background-color:transparent;
+    color:hsl(0, 0%, 95%);
+}
